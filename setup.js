@@ -12,7 +12,7 @@ const description = [
 const currentDirectory = __dirname;
 
 for (command in scripts) {
-    description.push("alias " + command + "='node " + currentDirectory + "/" + scripts[command] + "'");
+    description.push("alias " + command + "='node " + currentDirectory + "/scripts/" + scripts[command] + "'");
 }
 
 description.push("# -----------------------------------------------------------------------------------------");
