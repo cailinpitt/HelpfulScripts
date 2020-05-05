@@ -20,10 +20,10 @@ Once installed, you can use the alias to call each script:
 Take an input string and transform it to upper or lower case
 
 ```
-$ node case.js "Hello, World" -u
+$ case "Hello, World" -u
 HELLO, WORLD
 
-$ node case.js "Hello, World"
+$ case "Hello, World"
 hello, world
 ```
 
@@ -31,7 +31,7 @@ hello, world
 Show the current weather for a given zip code
 
 ```
-$ node weather.js 43210
+$ weather 43210
 
 Weather report: 43210
 
@@ -46,7 +46,7 @@ Weather report: 43210
 Generates a version 4 UUID, copies the UUID to the clipboard and prints it to the console
 
 ```
-$ node uuid.js
+$ uuid
 
 2c7b2ba7-4049-4751-bd8e-dcb146318714
 ```
@@ -55,11 +55,11 @@ $ node uuid.js
 Converts a binary number to decimal (base 10), and a decimal number to binary (base 2)
 
 ```
-$ node db.js 5 -b
+$ db 5 -b
 
 101
 
-$ node db.js 101 -d
+$ db 101 -d
 
 5
 ```
