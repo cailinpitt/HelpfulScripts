@@ -3,7 +3,7 @@
 ## Setup
 Run:
 
-`$ bash install.sh`
+`$ npm run local`
 
 This script installs the npm packages the scripts use to run and adds an alias for each script to `~/.bash_profile` so they can be used globally in your terminal.
 
