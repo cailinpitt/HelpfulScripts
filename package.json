@@ -19,6 +19,6 @@
   "dependencies": {
     "insert-line": "1.1.0",
     "uuid": "3.3.3",
-    "clipboardy": "2.1.0"
+    "clipboardy": "3.0.0"
   }
 }
